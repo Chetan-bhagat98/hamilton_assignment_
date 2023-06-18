@@ -1,0 +1,175 @@
+{
+	"info": {
+		"_postman_id": "23de9c8b-2681-48a0-bf5d-383c4372aee4",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24261945",
+		"_collection_link": "https://dark-resonance-856183.postman.co/workspace/153f4c3f-af1c-45be-83fb-2088f47e4a44/collection/24261945-23de9c8b-2681-48a0-bf5d-383c4372aee4?action=share&creator=24261945&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9160/api/product/2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\":\"5\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9160/api/product/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9160",
+					"path": [
+						"api",
+						"product",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9160/api/product/100",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\":\"1\",\r\n    \"productName\":\"product1\",\r\n    \"product_description\":\"product1dis\",\r\n    \"product_images\":\"https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8fDA%3D&w=1000&q=80\",\r\n    \"isActive\":true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9160/api/product/100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9160",
+					"path": [
+						"api",
+						"product",
+						"100"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9160/api/product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\":\"55\",\r\n    \"productName\":\"product\",\r\n    \"product_description\":\"product1dis\",\r\n    \"product_images\":\"https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8fDA%3D&w=1000&q=80\",\r\n    \"isActive\":true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9160/api/product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9160",
+					"path": [
+						"api",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9160/api/product/5",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\":\"100\",\r\n    \"productName\":\"product1\",\r\n    \"product_description\":\"product1dis\",\r\n    \"product_images\":\"https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8fDA%3D&w=1000&q=80\",\r\n    \"isActive\":true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9160/api/product/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9160",
+					"path": [
+						"api",
+						"product",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9160/api/product?page=1&limit=1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\":\"1\",\r\n    \"productName\":\"product1\",\r\n    \"product_description\":\"product1dis\",\r\n    \"product_images\":\"https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8fDA%3D&w=1000&q=80\",\r\n    \"isActive\":true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9160/api/product?page=1&limit=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9160",
+					"path": [
+						"api",
+						"product"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "limit",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
